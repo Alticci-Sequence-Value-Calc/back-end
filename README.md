@@ -65,6 +65,10 @@ You can run all automated test cases created to test this API using:
 
 > ./mvn compile quarkus:test
 
+## For troubleshooting
+
+. [CORS Origin Error in Browser (Front-end Angular, Back-end Quarkus)](https://stackoverflow.com/a/75385401/6771132)
+
 ## References
 
 1. [Quarkus Get Started](https://quarkus.io/get-started/)
