@@ -2,7 +2,6 @@ package pt.winprovit;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -41,6 +40,6 @@ public class AlticciResource {
                       type = SchemaType.DEFAULT)))
     public Response getAlticciInJson(int n) throws AlticciException {
         AlticciValidator.validate(n);
-        return Response.ok(new AlticciResult(Alticci.a(n))).build();
+        return Response.ok(new AlticciResult(n, Alticci.a(n))).build();
     }
 }

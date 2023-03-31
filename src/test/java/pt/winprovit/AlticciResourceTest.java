@@ -21,6 +21,8 @@ public class AlticciResourceTest {
         Response response = given()
                 .when().get("/alticci/2");
         response.then().statusCode(200);
+        assertEquals("2", 
+            response.jsonPath().getString("n"));
         assertEquals("1", 
             response.jsonPath().getString("result"));
     }
