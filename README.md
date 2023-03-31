@@ -57,6 +57,8 @@ In order to be able to consume this REST API, try it live, or check its document
 
 Quarkus ships with a Dev UI, so you can explorer to see others details of this application( **available in dev mode only**) at http://localhost:8080/q/dev/.
 
+[Requirements document](docs/requirements.pdf) is also available.
+
 ## Performing automated testing
 
 You can run all automated test cases created to test this API using:
