@@ -52,7 +52,8 @@ You can run your application in dev mode that enables live coding using:
 
 ## Checking documentation
 
-In order to be able to consume this REST API, try it live, or check its documentation, with its running access its [Open API UI](http://localhost:8080/q/swagger-ui) link.
+In order to be able to consume this REST API, try it live, or check its documentation, with its running access its [Open API UI](http://localhost:8080/q/swagger-ui) link. See an evidence of it below:
+![Swagger API](others/api_document_evidence.png "Swagger API")
 
 Quarkus ships with a Dev UI, so you can explorer to see others details of this application( **available in dev mode only**) at http://localhost:8080/q/dev/.
 
